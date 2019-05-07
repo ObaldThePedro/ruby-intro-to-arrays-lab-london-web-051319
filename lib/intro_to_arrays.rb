@@ -7,8 +7,8 @@ def array_with_two_elements
    return list
 end
   
-def first_element(Array)
-  return Array[0]
+def first_element(list)
+  return list[0]
   
 def third_element(Array)
   return Array[2]
