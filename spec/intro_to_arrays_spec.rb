@@ -1,6 +1,7 @@
+require 'spec_helper.rb'
 require './lib/intro_to_arrays.rb'
-describe "working with arrays" do
 
+describe "working with arrays" do
   context 'instantiating' do
     describe "#instantiate_new_array" do
       #the variables that begin with the '@' symbol are called instance variables. 
