@@ -3,13 +3,13 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-   Array = [1,2]
-   return Array
+   list = [1,2]
+   return list
 end
   
 def first_element([])
-  return [][0]
-end
+  list = [1]
+  return list[0]
   
 def third_element(Array)
   return Array[2]
